@@ -437,6 +437,37 @@
       margin: 0;
       text-align:center;
     }
+    .honeymoonQR{
+  margin-top: 22px;
+  text-align: center;
+}
+
+.qrTitle{
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(35,48,45,.85);
+}
+
+.qrImage{
+  width: 160px;
+  max-width: 60%;
+  border-radius: 16px;
+  border: 1px solid rgba(35,48,45,.12);
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.qrImage:hover{
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 16px 35px rgba(0,0,0,.12);
+}
+
+.qrHint{
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: rgba(35,48,45,.6);
+}
 
     /* ---------- Accommodation ---------- */
     .grid{
@@ -751,6 +782,19 @@
             But if a present you must give,<br>
             A cash gift will help us on our way!”
           </p>
+          <div class="honeymoonQR">
+  <p class="qrTitle">If you want to contribute to our honeymoon…</p>
+
+  <a href="https://monzo.me/sarahtaylor32?h=3mJtZl&format=qr" target="_blank" rel="noopener">
+    <img 
+      src="qr.png" 
+      alt="Honeymoon contribution QR code"
+      class="qrImage"
+    />
+  </a>
+
+  <p class="qrHint">Scan QR code or click on it</p>
+</div>
         </div>
       </div>
     </section>
